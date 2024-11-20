@@ -12,109 +12,135 @@
 </head>
 <body>
   <div class="main w-full">
-    <div class="offer py-2 px-4 bg-[#99C1C5]">
-        <h1 class="font-semibold text-base">
-            Use code "Sharktank" and get FLAT 20% OFF (Not Applicable on Iced Teas) || Free Shipping on order above 500
-        </h1>
-    </div>
-    <div class="navbar w-full flex justify-between px-6 py-5">
-        <img class="w-52" src="https://drinkbeyond.co.in/cdn/shop/files/beyondwater_Logo_1x1-01_800x.png?v=1614383558" alt="beyondwater_Logo">
-        <div class="right flex gap-5 items-center">
-            <a class="text-sm font-medium" href="#">Shop</a>
-            <a class="text-sm font-medium" href="#">Menu</a>
+    <div class="flex flex-col w-full h-screen">
+        <div class="offer py-2 px-4 bg-[#99C1C5] md:px-10 lg:px-20">
+            <h1 class="font-semibold text-base md:text-sm">
+                Use code "Sharktank" and get FLAT 20% OFF (Not Applicable on Iced Teas) || Free Shipping on order above 500
+            </h1>
         </div>
-    </div>
-    <div class="banner">
-        <div class="image w-full h-[40vh]">
-            <img class="h-full w-full object-cover object-center" src="https://scontent-lhr6-1.cdninstagram.com/v/t51.29350-15/403577126_653241933680143_2732706620677891806_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=18de74&_nc_ohc=ed1fUtJyYn4Q7kNvgFK5osy&_nc_zt=23&_nc_ht=scontent-lhr6-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=AEvXzxGCqFCM3VHTEp0I_Ka&oh=00_AYC9zjwysxiLJzwgw6GrSlb9isrHPgHo3DkWfESUbl-wwg&oe=674139D5" alt="">
-        </div>
-        <div class="info px-4 py-10 w-full min-h-[40vh]">
-            <h3 class="text-2xl font-semibold tracking-tighter">We make center</h3>
-            <h1 class="text-6xl font-bold leading-[3.7rem] tracking-tighter">Super -</h1>
-            <h4 class="text-6xl font-bold leading-[3.7rem] tracking-tighter">Powered 💪🏻</h4>
-            <h4 class="text-xl font-medium leading-none tracking-tighter mt-3">That's our story.</h4>
-            <div class="shippingOffer flex items-center gap-2 w-3/4 mt-5 px-2 py-3 rounded-md py-1  bg-[#FBD11B]">
-                <i class="ri-truck-line"></i>
-                <h3 class="text-sm font-semibold tracking-tight leading-none">Free Shipping on order above 500</h3>
+        <div class="navbar w-full flex justify-between md:justify-start items-center px-6 py-5">
+            <img class="w-52" src="https://drinkbeyond.co.in/cdn/shop/files/beyondwater_Logo_1x1-01_800x.png?v=1614383558" alt="beyondwater_Logo">
+            <div class="menus hidden md:flex gap-10 ml-10">
+                <a class="text-base tracking-tight font-medium capitalize" href="#">go to home</a>
+                <a class="text-base tracking-tight font-medium capitalize" href="#">shop by category</a>
+                <a class="text-base tracking-tight font-medium capitalize" href="#">more links</a>
             </div>
-            <button class="bg-black text-white px-5 py-3 mt-5 rounded-lg font-semibold">Check Products</button>
+            <div class="right md:hidden flex gap-5 items-center">
+                <a class="text-sm font-medium" href="#">Shop</a>
+                <a class="text-sm font-medium" href="#">Menu</a>
+            </div>
+        </div>
+        <div class="banner w-full md:flex md:flex-row-reverse md:overflow-hidden">
+            <div class="image relative w-full md:w-1/2 h-[40vh] md:h-full overflow-hidden flex flex-nowrap">
+                <img class="banner-img shrink-0 h-full w-full object-cover object-center" src="bey1.jpg" alt="">
+                <img class="banner-img shrink-0 h-full w-full object-cover object-center" src="bey.jpg" alt="">
+                <img class="banner-img shrink-0 h-full w-full object-cover object-center" src="bey2.jpg" alt="">
+                <img class="banner-img shrink-0 h-full w-full object-cover object-center" src="bey3.jpg" alt="">
+                <img class="banner-img shrink-0 h-full w-full object-cover object-center" src="bey4.jpg" alt="">
+                <img class="banner-img shrink-0 h-full w-full object-cover object-center" src="bey1.jpg" alt="">
+
+                <h4 class="slide-r-btn absolute bottom-5 bg-white border border-white border-8 px-2 py-1 mr-10 rounded-full right-2"><i class="ri-arrow-right-line text-2xl"></i></h4>
+                <!-- <h4 class="slide-l-btn absolute bottom-5 bg-white border border-white border-8 px-2 py-1 ml-10 rounded-full left-2"><i class="ri-arrow-left-line text-2xl"></i></h4> -->
+            </div>
+            <div class="info md:flex md:flex-col md:justify-between px-4 py-10 w-full md:w-1/2 md:px-20 min-h-[40vh] md:min-h-full">
+                <div class="upper">
+                    <h3 class="text-2xl md:text-5xl font-semibold tracking-tighter">We make center</h3>
+                    <h1 class="text-6xl md:text-[7rem] md:leading-[6rem] font-bold leading-[3.7rem] tracking-tighter">Super -</h1>
+                    <h4 class="text-6xl md:text-[6rem] md:leading-[6rem] font-bold leading-[3.7rem] tracking-tighter">Powered 💪🏻</h4>
+                    <h4 class="text-xl md:text-4xl font-medium leading-none tracking-tighter mt-3">That's our story.</h4>
+                    <div class="shippingOffer flex items-center gap-2 w-3/4 md:w-[60%] mt-5 md:mt-8 px-2 py-3 rounded-md py-1 bg-[#FBD11B]">
+                        <i class="ri-truck-line"></i>
+                        <h3 class="text-sm md:text-lg font-semibold tracking-tight leading-none">Free Shipping on order above 500</h3>
+                    </div>
+                    <button class="bg-black text-white px-5 md:px-10 md:py-4 md:text-xl py-3 mt-5 rounded-lg font-semibold">Check Products</button>
+                </div>
+                <div class="lower">
+                    <p>there's more waiting for you</p>
+                </div>
+            </div>
         </div>
     </div>
-    <div class="sugar w-full h-[50vh] flex items-center overflow-hidden">
-        <img class="w-full h-full object-contain scale-[1.2] " src="https://i.ibb.co/RcF5vNX/0-Sugar.jpg" alt="Sugar image">
+    <div class="sugar w-full h-[50vh] md:h-screen flex items-center overflow-hidden">
+        <img class="w-full h-full object-contain scale-[1.2] md:scale-[1]" src="https://i.ibb.co/RcF5vNX/0-Sugar.jpg" alt="Sugar image">
     </div>
-    <div class="workslikemagic px-3 py-5 overflow-hidden">
-        <h1 class="text-4xl font-regular tracking-tighter"><span class="font-semibold">Beyond</span>Water</h1>
-        <h1 class="text-4xl font-semibold">Works Likes Magic ✨</h1>
-        <img class="w-full scale-[1.2] mt-10" src="https://drinkbeyond.co.in/cdn/shop/files/WEB_BANNER_2048x.jpg?v=1656586855" alt="waterValue">
+    <div class="workslikemagic px-3 md:px-32 py-5 overflow-hidden">
+        <h1 class="text-4xl md:text-5xl font-regular tracking-tighter"><span class="font-semibold">Beyond</span>Water</h1>
+        <h1 class="text-4xl md:text-5xl font-semibold">Works Likes Magic ✨</h1>
+        <img class="w-full scale-[1.2] md:scale-[1] mt-10 md:mt-20" src="https://drinkbeyond.co.in/cdn/shop/files/WEB_BANNER_2048x.jpg?v=1656586855" alt="waterValue">
     </div>
     <div class="horizontalScroll w-full mt-20">
-        <div class="hcontainer relative w-full h-screen">
+        <div class="hcontainer relative w-full h-[400vh]">
             <div class="slides sticky top-0 h-screen overflow-hidden flex whitespace-nowrap">
-                <div class="w-full relative h-screen flex-shrink-0 bg-[#A5D9DF]">
+                <div class="slide w-full relative h-screen flex-shrink-0 bg-[#A5D9DF]">
                     <div class="centeredText flex flex-col items-center absolute top-[45%] left-1/2 -translate-x-1/2 -translate-y-1/2">
-                        <h1 class="font-semibold text-[#466366] capitalize tracking-tighter text-3xl">It's as easy as it can get</h1>
-                        <a class="px-10 font-semibold tracking-tight mt-3 py-2 bg-[#466366] text-white rounded-full" href="#">Try BeyondWater</a>
+                        <h1 class="font-semibold text-[#466366] capitalize tracking-tighter text-3xl md:text-5xl">It's as easy as it can get</h1>
+                        <a class="px-10 md:py-4 font-semibold tracking-tight mt-3 md:mt-8 md:text-lg py-2 bg-[#466366] text-white rounded-full" href="#">Try BeyondWater</a>
                     </div>
                     <img src="" alt="">
                 </div>
-                <div class="w-full relative h-screen flex items-end justify-center pb-32 flex-shrink-0 bg-[#6431A5] overflow-hidden">
-                    <h1 class="text-[30vw] font-black tracking-tight text-white">FLIP IT</h1>
+                <div class="slide w-full relative h-screen flex items-end justify-center pb-32 md:pb-6 flex-shrink-0 bg-[#6431A5] overflow-hidden">
+                    <h1 class="text-[30vw] md:text-[18vw] font-black tracking-tight text-white">FLIP IT</h1>
                 </div>
-                <div class="w-full relative h-screen flex items-center justify-center flex-shrink-0 bg-[#FBD11B] overflow-hidden">
+                <div class="slide w-full relative h-screen flex items-center justify-center flex-shrink-0 bg-[#FBD11B] overflow-hidden">
                     <h1 class="text-[30vw] font-black tracking-tight text-[#D9A900]">SHAKE</h1>
                 </div>
-                <div class="w-full h-screen relative flex items-center justify-center flex-shrink-0 bg-[#14BB7F] overflow-hidden">
+                <div class="slide w-full h-screen relative flex items-center justify-center flex-shrink-0 bg-[#14BB7F] overflow-hidden">
                     <h1 class="text-[30vw] font-black tracking-tight text-[#2C8666]">DRINK</h1>
                 </div>
             </div>
         </div>
     </div>
-    <div class="vitamin w-full mt-20 mb-20">
+    <div class="vitamin w-full mt-20 mb-20 md:px-20">
         <h1 class="text-5xl px-4 tracking-tighter font-semibold">vitamin drinks</h1>
         <div class="products flex gap-3 pl-4 overflow-x-auto  whitespace-nowrap mt-10">
             <div class="product flex-shrink-0">
                 <div class="productcontainer">
-                    <div class="w-60">
-                        <div class="image rounded-t-lg w-full h-72 bg-[#FFC46B]">
+                    <div class="w-60 md:w-80">
+                        <div class="image rounded-t-lg w-full h-72 md:h-96 bg-[#FFC46B]">
 
                         </div>
-                        <div class="proddesc bg-[#FFEBC4] text-[#A36D1C] flex items-center justify-between px-4 py-3">
-                            <h3 class="font-medium text-lg">Zesty Orange</h3>
-                            <h3 class="font-medium">₹ 300</h3>
+                        <div class="proddesc bg-[#FFEBC4] text-[#A36D1C] flex items-center justify-between px-4 py-3 md:px-5 md:py-6">
+                            <h3 class="font-medium text-lg md:text-xl md:font-semibold md:tracking-tight">Zesty Orange</h3>
+                            <h3 class="font-medium md:text-xl md:font-semibold">₹ 300</h3>
                         </div>
-                        <button class="w-full rounded-lg mt-2 font-semibold py-2 bg-[#FFEBC4] text-[#754E15]">Add to Cart</button>
+                        <button class="w-full rounded-lg mt-2 font-semibold md:font-bold md:text-lg py-2 bg-[#FFEBC4] text-[#754E15]">Add to Cart</button>
                     </div>
                 </div>
             </div>
             <div class="product flex-shrink-0"></div>
                 <div class="productcontainer">
-                    <div class="w-60">
-                        <div class="image rounded-t-lg w-full h-72 bg-[#FCB8A9]">
+                    <div class="w-60 md:w-80">
+                        <div class="image rounded-t-lg w-full h-72 md:h-96 bg-[#FCB8A9]">
 
                         </div>
-                        <div class="proddesc bg-[#FCB8A9] text-[#834D4D] flex items-center justify-between px-4 py-3">
-                            <h3 class="font-medium text-lg">Zesty Orange</h3>
-                            <h3 class="font-medium">₹ 300</h3>
+                        <div class="proddesc bg-[#FCB8A9] text-[#834D4D] flex items-center justify-between px-4 py-3 md:px-5 md:py-6">
+                            <h3 class="font-medium text-lg md:text-xl md:font-semibold md:tracking-tight">Zesty Orange</h3>
+                            <h3 class="font-medium md:text-xl md:font-semibold">₹ 300</h3>
                         </div>
-                        <button class="w-full rounded-lg mt-2 font-semibold py-2 bg-[#FCB8A9] text-[#754E15]">Add to Cart</button>
+                        <button class="w-full rounded-lg mt-2 font-semibold md:font-bold md:text-lg py-2 bg-[#FCB8A9] text-[#754E15]">Add to Cart</button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="doyouknow w-full flex flex-col justify-between px-5 py-10 h-screen">
+    <div class="doyouknow w-full flex flex-col justify-between px-5 py-10 md:px-20 h-screen">
         <div class="top">
-            <h1 class="font-semibold text-5xl tracking-tighter">do you know?</h1>
-            <h1 class="text-7xl tracking-tighter mt-5 leading-none">not all</h1>
-            <h1 class="text-7xl tracking-tighter leading-none"><span class="font-semibold">fats,</span> are</h1>
-            <h1 class="text-7xl tracking-tighter font-semibold">bad fats.</h1>
+            <h1 class="font-semibold text-5xl md:text-[4vw] tracking-tighter">do you know?</h1>
+            <h1 class="text-7xl tracking-tighter mt-5 md:text-[6vw] md:mt-10 leading-none">not all</h1>
+            <h1 class="text-7xl tracking-tighter md:text-[6vw] leading-none"><span class="font-semibold">fats,</span> are</h1>
+            <h1 class="text-7xl tracking-tighter md:text-[6vw] font-semibold">bad fats.</h1>
         </div>
         <div class="bottom text-right">
-            <h1 class="text-3xl tracking-tighter">our instagram has more info like this</h1>
-            <a class="px-10 py-3 text-2xl text-white bg-black tracking-tighter mt-3 inline-block" href="#">click to see</a>
+            <h1 class="text-3xl md:text-5xl tracking-tighter">our instagram has more info like this</h1>
+            <a class="px-10 py-3 text-2xl text-white bg-black rounded-lg md:mt-5 tracking-tighter mt-3 inline-block" href="#">click to see</a>
         </div>
     </div>
+    <footer class="text-base font-medium text-center py-10 md:text-lg">this is a reimagined website for the sharktank brand Beyond Water by <a class="font-bold" href="http://abnjain.vercel.app">abnjain</a></footer>
   </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="script.js"></script>
 </body>
 </html>
